@@ -15,7 +15,7 @@ class UpdateStoryTags
 		@headers.version = "1.0"
 
 		@config = {:base_url => url} # "https://rally1.rallydev.com/slm"}
-		@config[:username]   = username # "xxxbmullan@emc.com"
+		@config[:username]   = username 
 		@config[:password]   = password
 		@config[:workspace]  = workspace_name
 		@config[:version]    = "1.40"
